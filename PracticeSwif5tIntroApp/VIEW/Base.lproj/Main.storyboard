@@ -66,6 +66,7 @@
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="login:" destination="TxM-2g-C1O" eventType="touchUpInside" id="k66-IX-UDU"/>
                                     <segue destination="rMd-Ju-IzQ" kind="show" id="yRy-bZ-bp0"/>
                                 </connections>
                             </button>
@@ -79,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="1826" y="86"/>
         </scene>
-        <!--View Controller-->
+        <!--Base View Controller-->
         <scene sceneID="fHd-82-0dn">
             <objects>
-                <viewController id="rMd-Ju-IzQ" sceneMemberID="viewController">
+                <viewController id="rMd-Ju-IzQ" customClass="BaseViewController" customModule="PracticeSwif5tIntroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T0B-Zu-wYC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

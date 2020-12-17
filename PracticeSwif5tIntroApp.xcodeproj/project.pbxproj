@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A58840F2B58E472E1E1AA0F /* Pods_PracticeSwif5tIntroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEA509D52E14A44C6543990 /* Pods_PracticeSwif5tIntroApp.framework */; };
 		E31674AB2584DB4D00746C0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31674AA2584DB4D00746C0F /* LoginViewController.swift */; };
 		E31674AE2584F56400746C0F /* opning.mov in Resources */ = {isa = PBXBuildFile; fileRef = E31674AD2584F56400746C0F /* opning.mov */; };
+		E342AE952586395E00DDEC5A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342AE942586395E00DDEC5A /* BaseViewController.swift */; };
+		E3A07A342588F7BF00C00BB2 /* Pods_PracticeSwif5tIntroApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEA509D52E14A44C6543990 /* Pods_PracticeSwif5tIntroApp.framework */; };
 		E3E9DB01257FB5B90061F7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E9DB00257FB5B90061F7B7 /* AppDelegate.swift */; };
 		E3E9DB03257FB5B90061F7B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E9DB02257FB5B90061F7B7 /* SceneDelegate.swift */; };
 		E3E9DB05257FB5B90061F7B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E9DB04257FB5B90061F7B7 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		3D4B7D2FD156E396A2DD044A /* Pods-PracticeSwif5tIntroApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeSwif5tIntroApp.release.xcconfig"; path = "Target Support Files/Pods-PracticeSwif5tIntroApp/Pods-PracticeSwif5tIntroApp.release.xcconfig"; sourceTree = "<group>"; };
 		E31674AA2584DB4D00746C0F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E31674AD2584F56400746C0F /* opning.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = opning.mov; sourceTree = "<group>"; };
+		E342AE942586395E00DDEC5A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E3E9DAFD257FB5B90061F7B7 /* PracticeSwif5tIntroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwif5tIntroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E9DB00257FB5B90061F7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E9DB02257FB5B90061F7B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		E3E9DB25257FBD2C0061F7B7 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		E3E9DB2C257FBD740061F7B7 /* 0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 0.json; sourceTree = "<group>"; };
 		E9AC2BDD82CE844BCE6A10A2 /* Pods-PracticeSwif5tIntroApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeSwif5tIntroApp.debug.xcconfig"; path = "Target Support Files/Pods-PracticeSwif5tIntroApp/Pods-PracticeSwif5tIntroApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FBEA509D52E14A44C6543990 /* Pods_PracticeSwif5tIntroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeSwif5tIntroApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEA509D52E14A44C6543990 /* Pods_PracticeSwif5tIntroApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PracticeSwif5tIntroApp.framework; path = "../../../../Library/Developer/Xcode/DerivedData/PracticeSwif5tIntroApp-dbltlaqhozzwyedpfqlnvuhvagjm/Build/Products/Debug-iphoneos/Pods_PracticeSwif5tIntroApp.framework"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A58840F2B58E472E1E1AA0F /* Pods_PracticeSwif5tIntroApp.framework in Frameworks */,
+				E3A07A342588F7BF00C00BB2 /* Pods_PracticeSwif5tIntroApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +140,7 @@
 				E3E9DB02257FB5B90061F7B7 /* SceneDelegate.swift */,
 				E3E9DB04257FB5B90061F7B7 /* ViewController.swift */,
 				E31674AA2584DB4D00746C0F /* LoginViewController.swift */,
+				E342AE942586395E00DDEC5A /* BaseViewController.swift */,
 			);
 			path = CONTROLLER;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E342AE952586395E00DDEC5A /* BaseViewController.swift in Sources */,
 				E31674AB2584DB4D00746C0F /* LoginViewController.swift in Sources */,
 				E3E9DB05257FB5B90061F7B7 /* ViewController.swift in Sources */,
 				E3E9DB01257FB5B90061F7B7 /* AppDelegate.swift in Sources */,

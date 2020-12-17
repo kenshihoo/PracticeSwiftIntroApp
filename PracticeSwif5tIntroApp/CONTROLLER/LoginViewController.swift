@@ -11,19 +11,34 @@ import AVFoundation
 
 class LoginViewController: UIViewController {
     
+    var animationplayer = AVPlayer()
+    
     //Embed In→NavigationControllerを使っているけど、ナビゲーションバーを消す呪文
         override func viewWillAppear(_ animated: Bool) {
             super.viewWillAppear(animated)
             self.navigationController?.isNavigationBarHidden = true
         }
-
-    var animationplayer = AVPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        backAnimation()
+        self.animationplayer.play()
+        
+    }
+    
+        
+    @IBAction func login(_ sender: Any) {
+        animationplayer.pause()
+    }
+    
+    
+    
+    //背景にムービを再生させるメソッド
+    func backAnimation()  {
         
         let path = Bundle.main.path(forResource: "opning", ofType:"mov" )
         animationplayer = AVPlayer(url: URL(fileURLWithPath: path!))
+        
         
         //avplyaer用のレイヤーを生成
         let playerLayer = AVPlayerLayer(player: animationplayer)
@@ -44,11 +59,13 @@ class LoginViewController: UIViewController {
         NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: animationplayer.currentItem, queue: .main){ (_) in
             
             self.animationplayer.seek(to: .zero)
+            //いらない記述かも
             self.animationplayer.play()
         }
     }
     
-
+    
+    
     /*
     // MARK: - Navigation
 
